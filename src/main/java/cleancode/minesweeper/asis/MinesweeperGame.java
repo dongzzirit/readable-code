@@ -9,7 +9,6 @@ public class MinesweeperGame {
     private static Integer[][] landMineCounts = new Integer[8][10];
     private static boolean[][] landMines = new boolean[8][10];
     private static int gameStatus = 0; // 0: 게임 중, 1: 승리, -1: 패배
-    //test
     public static void main(String[] args) {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("지뢰찾기 게임 시작!");
