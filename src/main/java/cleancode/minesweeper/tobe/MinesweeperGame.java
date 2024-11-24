@@ -35,6 +35,7 @@ public class MinesweeperGame {
                 System.out.println("지뢰를 밟았습니다. GAME OVER!");
                 break;
             }
+
             String cellInput = getCellInputFromUser();
             String userActionInput = getUserActionFromUser();
             actOnCell(cellInput, userActionInput);
